@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+	font-family: 'Candal', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	
+	line-height: 1.8;
+}
+nav{
+    background-color: rgb(252, 252,252);
+    height: 200px;
+}
+
+
+header {
+    text-align: center;
+}
+
+header nav a {
+    display: block;
+    margin-top: 50px;
+    text-decoration: none;
+    color: rgb(33, 62,78);
+}
+
+header nav a i {
+    color:rgb(248, 138,149);
+    font-size: 25px;
+}
+main i{
+    color: rgb(248, 138,149);
+}
+.background{
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+	
+}
+.background h1 {
+    
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(248, 138,149);
+}
+.background p{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 50px ;
+   
+    
+}
+iframe {
+	width: 100%;
+}
+
+input{
+    width: 100%;
+   
+    
+}
+input[type=text]{
+    font-family: 'Candal', sans-serif;
+    width: 100%;
+  padding: 12px 20px;
+  
+  box-sizing: border-box;
+  color: white;
+    
+    background-color: rgb(248, 138,149);
+
+
+}
+input[type=submit]{
+    font-family: 'Candal', sans-serif;
+    width: 90%;
+  padding: 12px 0;
+  
+  box-sizing: border-box;
+  color: white;
+    
+    background-color: rgb(248, 138,149);
+    margin-bottom: 20px;
+
+
+}
+::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+main{
+    padding: 80px;
+}
+main h2{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0 20px;
+    border-top: 1px dashed rgb(92, 111,109);
+    border-left: 1px dashed rgb(92, 111,109);
+    border-right: 1px dashed rgb(92, 111,109);
+}
+.container1{
+    text-align: center;
+}
+main p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+    color: rgb(159, 142,135);
+}
+
+.mutualise{
+    border: 1px dashed rgb(92, 111,109);
+    margin: 20px;
+
+}
+.mutualise p{
+    text-align: center;
+    color: rgb(92, 111,109);
+    
+}
+.mutualise li{
+    list-style: circle;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: rgb(92, 111,109);
+
+
+}
+.mutualise ul{
+    margin-left: 0px;
+}
+
+/* FOOTER */
+
+.licence img {
+    width: 50px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: rgb(33, 62,78);
+  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (min-width: 1224px){
+     nav{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    article ul {
+        text-align: left;
+    }
+    footer ul li{
+        display:inline-block;
+        margin-left: 100px;
+        margin-top: 50px;
+        
+    }
+    .container1{
+        display:flex;
+        justify-content: space-around;
+        
+    }
+    article p{
+        text-align: justify;
+        width: 90%;
+
+    }
+    
+    nav .logo{
+        width: 90px;
+        margin-top: -20px;
+    }
+
+    
+}
